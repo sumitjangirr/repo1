@@ -1,0 +1,72 @@
+ /* Reset css for all browser */
+ 
+ * {
+     box-sizing: border-box;
+     margin: 0px;
+     padding: 0px;
+     outline: none;
+     list-style: none;
+     border: 0;
+     font-size: 100%;
+     font: inherit;
+     vertical-align: baseline;
+ }
+ 
+ table {
+     border-collapse: collapse;
+     border-spacing: 0;
+ }
+ /* base font color and size*/
+ 
+ body {
+     font-size: 18px;
+     color: #333;
+ }
+ /* clearfic class for reset floating issue */
+ 
+ .clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+ }
+ 
+ .clearfix {
+     display: inline-block;
+ }
+ 
+ .clearfix {
+     display: block;
+ }
+ /* Color on link hover */
+ 
+ a:hover {
+     color: #27ae60;
+ }
+ /* Image responsive */
+ 
+ .img-responsive {
+     max-width: 100%;
+ }
+ /*Padding from top*/
+ 
+ .pad_tp {
+     padding-top: 10px;
+ }
+ /*Padding from bottom*/
+ 
+ .pad_bt {
+     padding-bottom: 10px;
+ }
+ /*Padding normal from top*/
+ 
+ .pad_tp_nr {
+     padding-top: 15px;
+ }
+ /*Padding normal from bottom*/
+ 
+ .pad_bt_nr {
+     padding-bottom: 15px;
+ }

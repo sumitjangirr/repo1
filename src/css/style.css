@@ -1,0 +1,62 @@
+/*style for navigation*/
+
+#fixed {
+    clear: both;
+    padding: 15px;
+    border-bottom: 1px solid #ded5d5;
+}
+
+.navigation {
+    float: right;
+    width: 100%;
+    padding: 25px 0 0 0;
+    text-align: center;
+}
+
+
+/*Menu style*/
+
+.navigation li {
+    padding: 8px 15px;
+}
+
+.navigation>li {
+    float: left;
+    width: 15%;
+    position: relative;
+}
+
+
+/*Sub nav Hide*/
+
+.navigation ul {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    background: #fff;
+    left: 0;
+    right: 0;
+    top: 40px;
+    transition: all 1s linear;
+}
+
+
+/*Sub nav Show on hovring link*/
+
+.navigation>li:hover ul {
+    display: block;
+    transition: all 1s linear;
+}
+
+.navigation ul li {
+    border-bottom: 1px solid #ded5d5;
+}
+
+.navigation li a {
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+
+/*Sub nav style*/
