@@ -1,5 +1,8 @@
 /*style for navigation*/
 
+
+/*header border and space*/
+
 #fixed {
     clear: both;
     padding: 15px;
@@ -7,10 +10,11 @@
 }
 
 .navigation {
-    float: right;
     width: 100%;
     padding: 25px 0 0 0;
     text-align: center;
+    display: flex;
+    justify-content: space-around;
 }
 
 
@@ -21,7 +25,6 @@
 }
 
 .navigation>li {
-    float: left;
     width: 15%;
     position: relative;
 }
@@ -34,7 +37,7 @@
     position: absolute;
     z-index: 1;
     width: 100%;
-    background: #fff;
+    background: #ffcc00;
     left: 0;
     right: 0;
     top: 40px;
@@ -58,5 +61,114 @@
     text-decoration: none;
 }
 
+.navigation ul li a {
+    font-size: 15px;
+}
 
-/*Sub nav style*/
+
+/*Navigation style End */
+
+
+/*Intro section style start */
+
+.introduction,
+#promise,
+.leadership {
+    padding: 50px 0;
+}
+
+.introduction img {
+    max-width: 100%;
+}
+
+#our-value h2 {
+    margin-bottom: 30px;
+}
+
+.our-value-sec h3:first-child {
+    margin-top: 0px;
+}
+
+#promise img {
+    max-width: 600px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/*leaders  section*/
+
+.leadership>h2 {
+    margin-bottom: 30px;
+}
+
+.leadership .carousel-inner {
+    min-height: 300px;
+}
+
+.leadership .carousel-inner .item img {
+    max-width: 200px;
+    height: 190px;
+    display: inline-block;
+}
+
+.leadership .carousel-caption {
+    top: 0%;
+    padding: 0px;
+    text-align: left;
+    left: 23%;
+}
+
+.leadership .carousel-caption h2 {
+    margin-top: 0px;
+}
+
+.leadership .carousel-indicators li {
+    border: 1px solid #FF6600;
+}
+
+.leadership .carousel-indicators .active {
+    background: #FF6600;
+}
+
+.leadership .carousel-caption p {
+    color: #52595B;
+    text-shadow: 0px 0px #52595B;
+}
+
+
+/*Footer style start */
+
+#footer {
+    padding-top: 30px;
+}
+
+#footer a {
+    font-size: 15px;
+}
+
+.footer-link {
+    padding-bottom: 30px;
+}
+
+.copyright {
+    background: #1c4806;
+    color: #fff;
+}
+
+.copyright p {
+    text-align: center;
+    font-size: 12px;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+#footer .copyright a {
+    font-weight: 600;
+    color: #fff;
+    font-size: 12px;
+}
+
+
+/*Footer style End */
