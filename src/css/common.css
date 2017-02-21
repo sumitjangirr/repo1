@@ -1,0 +1,169 @@
+ /* Reset css for all browser */
+ 
+ * {
+     box-sizing: border-box;
+     margin: 0px;
+     padding: 0px;
+     outline: none;
+     list-style: none;
+     border: 0;
+     font-size: 100%;
+     font: inherit;
+     vertical-align: baseline;
+ }
+ 
+ table {
+     border-collapse: collapse;
+     border-spacing: 0;
+ }
+ /* base font color and size*/
+ /* Clearfic class for reset floating issue */
+ 
+ .clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+ }
+ 
+ .clearfix {
+     display: inline-block;
+ }
+ 
+ .clearfix {
+     display: block;
+ }
+ /* Clearfic class for reset floating issue End */
+ /*css for  Font face Start */
+ 
+ @font-face {
+     font-family: 'montserratlight';
+     src: url('font/montserrat-light.woff2') format('woff2'), url('font/montserrat-light.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+ }
+ 
+ @font-face {
+     font-family: 'montserratmedium';
+     src: url('font/montserrat-medium.woff2') format('woff2'), url('font/montserrat-medium.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+ }
+ 
+ @font-face {
+     font-family: 'montserratregular';
+     src: url('font/montserrat-regular.woff2') format('woff2'), url('font/montserrat-regular.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+ }
+ /*css for  Font face end */
+ /* Default size and font family for every one */
+ 
+ body {
+     font-family: 'Lato', sans-serif;
+     font-size: 18px;
+     color: #52595B;
+     line-height: 1.4;
+     letter-spacing: 0.5px;
+ }
+ /*Default font family for every heading from h1 to h6*/
+ 
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+     font-family: 'Roboto', sans-serif;
+     color: #FF6600;
+     text-shadow: 0 0px 0px rgba(0, 0, 0, .6);
+ }
+ /* Color on link hover */
+ 
+ a:hover {
+     color: #27ae60;
+     text-decoration: none;
+ }
+ /* Image responsive */
+ 
+ .img-responsive {
+     max-width: 100%;
+ }
+ /*Padding from top*/
+ 
+ .pad_tp {
+     padding-top: 10px;
+ }
+ /*Padding from bottom*/
+ 
+ .pad_bt {
+     padding-bottom: 10px;
+ }
+ /*Padding normal from top*/
+ 
+ .pad_tp_nr {
+     padding-top: 20px;
+ }
+ /*Padding normal from bottom*/
+ 
+ .pad_bt_nr {
+     padding-bottom: 20px;
+ }
+ /* Border bottom */
+ /*Padding from Left*/
+ 
+ .pad_lt {
+     padding-left: 10px;
+ }
+ /*Padding from right*/
+ 
+ .pad_rt {
+     padding-right: 10px;
+ }
+ /*Padding normal from left*/
+ 
+ .pad_lt_nr {
+     padding-left: 15px;
+ }
+ /*Padding normal from Right*/
+ 
+ .pad_rt_nr {
+     padding-right: 15px;
+ }
+ /* Border bottom */
+ /* margin top */
+ 
+ .mar_tp {
+     margin-top: 10px;
+ }
+ /*margin bottom*/
+ 
+ .mar_bt {
+     margin-bottom: 10px;
+ }
+ /* margin top normal*/
+ 
+ .mar_tp_nr {
+     margin-top: 20px;
+ }
+ /* margin bottom normal*/
+ 
+ .mar_bt_nr {
+     margin-bottom: 20px;
+ }
+ 
+ .bor_bt {
+     border-bottom: 1px solid #ded5d5;
+ }
+ /* Border top */
+ 
+ .bor_tp {
+     border-top: 1px solid #ded5d5;
+ }
+ 
+ .dark_clr {
+     color: #52595B;
+     font-weight: bold;
+ }
