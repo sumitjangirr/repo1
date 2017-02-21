@@ -21,6 +21,8 @@
 .lpgo a,
 .logo img {
     display: inline-block;
+    height: 96px;
+    width: 245px;
 }
 
 .navigation {

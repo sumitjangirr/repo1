@@ -70,9 +70,39 @@
     #fixed {
         padding: 0;
     }
+    .leadership .carousel-caption {
+        position: relative;
+        padding: 30px 15px 0;
+        left: 0;
+    }
+    .leadership .carousel-inner .item {
+        text-align: center;
+    }
+    #menu {
+        top: 20px;
+    }
 }
 
 
 /*Media for mobile devices */
 
-@media only screen and (max-width: 767px) {}
+@media only screen and (max-width: 767px) {
+    .carousel-inner>.item>img {
+        line-height: 1;
+        min-height: 300px;
+    }
+    .logo img {
+        height: 50px;
+        width: 130px;
+    }
+    .our-value-sec h3:first-child {
+        margin: 20px 0 0 0;
+    }
+    section>h2 {
+        padding-left: 15px;
+    }
+    #menu {
+        right: 10px;
+        top: 0px;
+    }
+}

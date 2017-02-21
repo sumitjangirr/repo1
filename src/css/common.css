@@ -67,6 +67,7 @@
      color: #52595B;
      line-height: 1.4;
      letter-spacing: 0.5px;
+     overflow-x: hidden;
  }
  /*Default font family for every heading from h1 to h6*/
  
