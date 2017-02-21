@@ -5,15 +5,15 @@ $(document).ready(function() {
 
 
 
-    if ($(window).width() < 992) {
+    if ($(window).width() <= 992) {
         $('#menu').click(function() {
 
-            $('.menu-container').toggleClass('active');
+            $('.menu-container').slideToggle(300);
 
         });
         $('.navigation li').click(function() {
 
-            $(this).find(' ul').slideToggle(500);
+            $(this).find(' ul').slideToggle(300);
         });
     }
 
