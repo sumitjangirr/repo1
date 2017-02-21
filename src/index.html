@@ -7,66 +7,65 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/common.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
     <link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
 </head>
 
 <body>
     <!--  Header section start here -->
-    <header class="container-fluid">
+    <header id="header" class="container-fluid">
         <div class="row no-gutter" id="rowheader">
-            <div id="fixed" class="clearfix">
-                <div id="innerfixed clearfix">
-                    <div class="col-md-3 col-sm-12 ">
-                        <div class="logo">
-                            <a href="index.html"><img src="img/logo.svg" style="height:96px; width:245px;" class="img-responsive"></a>
-                        </div>
-                    </div>
-                    <div class="col-md-9 col-sm-12 ">
-                        <ul class="navigation">
-                            <li><a href="#"> About us </a>
-                                <!-- Sub nav start-->
-                                <ul>
-                                    <li><a href="#"> Introduction </a></li>
-                                    <li><a href="#"> Our Values </a></li>
-                                    <li><a href="#"> Our Promise</a></li>
-                                    <li><a href="#"> Leadership</a></li>
-                                    <li><a href="#">Footprint </a></li>
-
-                                </ul>
-                                <!-- Sub nav End-->
-                            </li>
-                            <li><a href="#"> Products </a>
-
-                                <!-- Sub nav start-->
-                                <ul>
-                                    <li><a href="#"> Home Purchase </a></li>
-                                    <li><a href="#"> Home Build </a></li>
-                                    <li><a href="#"> Home Extend</a></li>
-                                    <li><a href="#"> Home Upgrade</a></li>
-                                </ul>
-                                <!-- Sub nav End-->
-                            </li>
-                            <li><a href="#"> policies</a>
-                                <!-- Sub nav start-->
-                                <ul>
-                                    <li><a href="#"> Home Purchase </a></li>
-                                    <li><a href="#"> Home Build </a></li>
-                                    <li><a href="#"> Home Extend</a></li>
-                                    <li><a href="#"> Home Upgrade</a></li>
-                                </ul>
-                                <!-- Sub nav End-->
-                            </li>
-                            <li><a href="#"> Media updates</a></li>
-                            <li><a href="#"> Careers</a></li>
-                            <li><a href="#"> Contact Us</a></li>
-
-
-                        </ul>
+            <span id="menu">Menu </span>
+            <div id="fixed" class="clearfix row">
+                <div class="col-lg-3 col-sm-12 logo-container">
+                    <div class="logo">
+                        <a href="index.html"><img src="img/logo.svg" style="height:96px; width:245px;" class="img-responsive"></a>
                     </div>
                 </div>
-                <!----row -->
-            </div>
+                <div class="col-lg-9 col-sm-12 menu-container ">
+                    <ul class="navigation">
+                        <li><a href="#"> About us </a>
+                            <!-- Sub nav start-->
+                            <ul>
+                                <li><a href="introduction"> Introduction </a></li>
+                                <li><a href="#"> Our Values </a></li>
+                                <li><a href="#"> Our Promise</a></li>
+                                <li><a href="#"> Leadership</a></li>
+                                <li><a href="#">Footprint </a></li>
 
+                            </ul>
+                            <!-- Sub nav End-->
+                        </li>
+                        <li><a href="#"> Products </a>
+
+                            <!-- Sub nav start-->
+                            <ul>
+                                <li><a href="#"> Home Purchase </a></li>
+                                <li><a href="#"> Home Build </a></li>
+                                <li><a href="#"> Home Extend</a></li>
+                                <li><a href="#"> Home Upgrade</a></li>
+                            </ul>
+                            <!-- Sub nav End-->
+                        </li>
+                        <li><a href="#"> policies</a>
+                            <!-- Sub nav start-->
+                            <ul>
+                                <li><a href="#"> Home Purchase </a></li>
+                                <li><a href="#"> Home Build </a></li>
+                                <li><a href="#"> Home Extend</a></li>
+                                <li><a href="#"> Home Upgrade</a></li>
+                            </ul>
+                            <!-- Sub nav End-->
+                        </li>
+                        <li><a href="#"> Media updates</a></li>
+                        <li><a href="#"> Careers</a></li>
+                        <li><a href="#"> Contact Us</a></li>
+
+
+                    </ul>
+                </div>
+            </div>
+            <!----row -->
     </header>
 
 
@@ -308,7 +307,11 @@
             </script>
             <script type="text/javascript" src="js/index.js">
             </script>
+            <div class="overlay">
+                <span>X </span>
 
+
+            </div>
 </body>
 
 </html>

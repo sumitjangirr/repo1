@@ -4,9 +4,23 @@
 /*header border and space*/
 
 #fixed {
-    clear: both;
     padding: 15px;
     border-bottom: 1px solid #ded5d5;
+}
+
+
+/* Header fixed */
+
+#menu {
+    display: none;
+}
+
+
+/* logo style */
+
+.lpgo a,
+.logo img {
+    display: inline-block;
 }
 
 .navigation {
@@ -46,11 +60,6 @@
 
 
 /*Sub nav Show on hovring link*/
-
-.navigation>li:hover ul {
-    display: block;
-    transition: all 1s linear;
-}
 
 .navigation ul li {
     border-bottom: 1px solid #ded5d5;
