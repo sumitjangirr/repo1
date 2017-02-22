@@ -83,8 +83,8 @@
  }
  /* Color on link hover */
  
- a:hover {
-     color: #27ae60;
+ a:hover,
+ a:active {
      text-decoration: none;
  }
  /* Image responsive */

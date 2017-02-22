@@ -53,10 +53,10 @@
     position: absolute;
     z-index: 1;
     width: 100%;
-    background: #ffcc00;
+    background: #cac1c1;
     left: 0;
     right: 0;
-    top: 40px;
+    top: 38px;
     transition: all 1s linear;
 }
 
@@ -65,6 +65,19 @@
 
 .navigation ul li {
     border-bottom: 1px solid #ded5d5;
+    text-align: left;
+    cursor: pointer;
+}
+
+.navigation ul li:hover {
+    background: #9a9494;
+    transition: all 0.5s linear;
+}
+
+.navigation ul li:hover a {
+    color: #fff;
+    transition: all 0.5s linear;
+    padding-left: 7px;
 }
 
 .navigation li a {
@@ -74,6 +87,8 @@
 
 .navigation ul li a {
     font-size: 15px;
+    transition: all 0.5s linear;
+    text-shadow: 0px 1px 0px #333333;
 }
 
 
@@ -179,6 +194,59 @@
     font-weight: 600;
     color: #fff;
     font-size: 12px;
+}
+
+.social-links li {
+    float: left;
+}
+
+.social-links li a {
+    background-image: url(../img/social-image.png);
+    height: 33px;
+    width: 33px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    transition: all 0.2s linear;
+}
+
+.twitter a {
+    background-position: 0px -33px;
+}
+
+.twitter:hover a {
+    background-position: 0px 0px;
+}
+
+.facebook a {
+    background-position: -33px -33px;
+}
+
+.facebook:hover a {
+    background-position: -33px 0px;
+}
+
+.google-plus a {
+    background-position: -66px -33px;
+}
+
+.google-plus:hover a {
+    background-position: -66px 0px;
+}
+
+.linked a {
+    background-position: -99px -33px;
+}
+
+.linked:hover a {
+    background-position: -99px 0px;
+}
+
+.insta a {
+    background-position: -167px -33px;
+}
+
+.insta:hover a {
+    background-position: -167px 0px;
 }
 
 

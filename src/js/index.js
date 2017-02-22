@@ -8,12 +8,12 @@ $(document).ready(function() {
     if ($(window).width() <= 992) {
         $('#menu').click(function() {
 
-            $('.menu-container').slideToggle();
+            $('.menu-container').slideToggle("slow");
 
         });
         $('.navigation li').click(function() {
 
-            $(this).find(' ul').slideToggle();
+            $(this).find(' ul').slideToggle("slow");
         });
     }
 
