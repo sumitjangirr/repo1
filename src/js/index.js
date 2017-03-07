@@ -17,11 +17,15 @@ $(document).ready(function() {
             $(this).find(' ul').slideToggle("slow");
         });
     }
-    $('.navigation > li a').click(function() {
-        $('li').removeClass("active");
-        $(this).parents('li').addClass("active");
-    });
 
+    $(".navigation > li").hover(
+        function() {
+            $(this).addClass("active");
+        },
+        function() {
+            $(this).removeClass("active");
+        }
+    );
 
     $(".navigation li").on('click', 'a', function(event) {
         event.preventDefault();

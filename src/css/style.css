@@ -62,7 +62,7 @@
     position: absolute;
     z-index: 1;
     width: 100%;
-    background: #0e0e0e;
+    background: rgba(33, 33, 33, 0.98);
     left: 0;
     right: 0;
     top: 54px;
@@ -73,7 +73,7 @@
 /*Sub nav Show on hovring link*/
 
 .navigation ul li {
-    border-bottom: 1px solid #252222;
+    border-bottom: 1px solid #383434;
     text-align: left;
     cursor: pointer;
 }
@@ -112,7 +112,7 @@
 /*Intro section style start */
 
 .introduction,
-#promise,
+#Vision,
 .leadership {
     padding: 50px 0;
 }
@@ -121,7 +121,7 @@
     max-width: 100%;
 }
 
-#our-value h2 {
+#Brief h2 {
     margin-bottom: 30px;
 }
 
@@ -129,7 +129,7 @@
     margin-top: 0px;
 }
 
-#promise img {
+#Vision img {
     max-width: 600px;
     width: 100%;
     display: block;
