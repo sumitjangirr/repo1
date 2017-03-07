@@ -15,7 +15,7 @@
         transition: all 1s linear;
     }
     body {
-        padding-top: 127px;
+        padding-top: 58px;
     }
     #header {
         width: 100%;
@@ -23,8 +23,8 @@
         top: 0px;
         left: 0;
         right: 0;
-        z-index: 1;
-        background: #fff;
+        z-index: 9;
+        background: rgba(33, 33, 33, 0.98);
     }
 }
 

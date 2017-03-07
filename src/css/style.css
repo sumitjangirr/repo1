@@ -4,8 +4,8 @@
 /*header border and space*/
 
 #fixed {
-    padding: 15px;
-    border-bottom: 1px solid #ded5d5;
+    padding: 0 15px;
+    border-bottom: 4px solid #78232f;
 }
 
 
@@ -18,16 +18,20 @@
 
 /* logo style */
 
-.lpgo a,
+.logo a {
+    color: #fff;
+}
+
+.logo a,
 .logo img {
     display: inline-block;
-    height: 96px;
-    width: 245px;
+    padding: 15px 0;
 }
 
 .navigation {
     width: 100%;
-    padding: 25px 0 0 0;
+    margin: 0;
+    padding: 0;
     text-align: center;
     display: flex;
     justify-content: space-around;
@@ -40,9 +44,14 @@
     padding: 8px 15px;
 }
 
+.navigation li.active {
+    background: #78232f;
+}
+
 .navigation>li {
     width: 15%;
     position: relative;
+    padding: 15px;
 }
 
 
@@ -53,10 +62,10 @@
     position: absolute;
     z-index: 1;
     width: 100%;
-    background: #cac1c1;
+    background: #0e0e0e;
     left: 0;
     right: 0;
-    top: 38px;
+    top: 54px;
     transition: all 1s linear;
 }
 
@@ -64,9 +73,13 @@
 /*Sub nav Show on hovring link*/
 
 .navigation ul li {
-    border-bottom: 1px solid #ded5d5;
+    border-bottom: 1px solid #252222;
     text-align: left;
     cursor: pointer;
+}
+
+.navigation ul li:last-child {
+    border-bottom: none;
 }
 
 .navigation ul li:hover {
@@ -83,6 +96,7 @@
 .navigation li a {
     text-transform: capitalize;
     text-decoration: none;
+    color: #fff;
 }
 
 .navigation ul li a {
@@ -163,6 +177,10 @@
     text-shadow: 0px 0px #52595B;
 }
 
+.carousel-indicators {
+    z-index: 1;
+}
+
 
 /*Footer style start */
 
@@ -179,7 +197,7 @@
 }
 
 .copyright {
-    background: #1c4806;
+    background: rgba(33, 33, 33, 0.98);
     color: #fff;
 }
 
