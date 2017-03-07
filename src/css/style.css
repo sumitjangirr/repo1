@@ -26,6 +26,7 @@
 .logo img {
     display: inline-block;
     padding: 15px 0;
+    font-size: 25px;
 }
 
 .navigation {
@@ -96,6 +97,7 @@
 .navigation li a {
     text-transform: capitalize;
     text-decoration: none;
+    font-size: 16px;
     color: #fff;
 }
 
@@ -134,6 +136,18 @@
     width: 100%;
     display: block;
     margin: 0 auto;
+}
+
+.carousel-inner>.item>img {
+    max-height: 740px;
+    object-fit: cover;
+    -webkit-object-fit: cover;
+    -ms-object-fit: cover;
+    -moz-object-fit: cover;
+}
+
+.carousel-caption h2 {
+    color: #fff;
 }
 
 
