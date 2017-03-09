@@ -34,6 +34,8 @@ $(document).ready(function() {
             scrollTop: $($.attr(this, 'href')).offset().top - 58
         }, 500);
     });
-
+    $('.flexslider').flexslider({
+        animation: "slide"
+    });
 
 });

@@ -195,6 +195,65 @@
     z-index: 1;
 }
 
+.flex-caption {
+    width: 96%;
+    padding: 2%;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .5);
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.flexslider ul li img {
+    height: 200px;
+    width: 200px;
+}
+
+.flexslider ul li>div {
+    float: left;
+    width: 30%;
+}
+
+.flexslider ul li .caption {
+    float: left;
+    width: 70%;
+}
+
+.flex-direction-nav {
+    display: none;
+}
+
+.flexslider ol {
+    text-align: center;
+}
+
+.flexslider ol li {
+    display: inline-block;
+}
+
+.flexslider ol li a {
+    border: 2px solid #78232f;
+    border-radius: 50%;
+    font-size: 0px;
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.flexslider .flex-caption {
+    display: inline-block;
+    width: initial;
+    padding-right: 19px;
+}
+
+.flexslider ol li a.flex-active {
+    background: #78232f;
+}
+
 
 /*Footer style start */
 
