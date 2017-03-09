@@ -67,6 +67,7 @@
      color: #52595B;
      line-height: 1.4;
      letter-spacing: 0.5px;
+     overflow-x: hidden;
  }
  /*Default font family for every heading from h1 to h6*/
  
@@ -77,13 +78,13 @@
  h5,
  h6 {
      font-family: 'Roboto', sans-serif;
-     color: #FF6600;
+     color: rgba(33, 33, 33, 0.98);
      text-shadow: 0 0px 0px rgba(0, 0, 0, .6);
  }
  /* Color on link hover */
  
- a:hover {
-     color: #27ae60;
+ a:hover,
+ a:active {
      text-decoration: none;
  }
  /* Image responsive */
