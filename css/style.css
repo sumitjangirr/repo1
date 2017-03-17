@@ -84,12 +84,12 @@
 }
 
 .navigation ul li:hover {
-    background: #9a9494;
+    /*background: #9a9494;*/
     transition: all 0.5s linear;
 }
 
 .navigation ul li:hover a {
-    color: #fff;
+    color: #ffc339;
     transition: all 0.5s linear;
     padding-left: 7px;
 }
@@ -150,6 +150,12 @@
     color: #fff;
 }
 
+.carousel-inner h3 {
+    font-size: 26px;
+    color: #fff;
+    line-height: 1.2;
+}
+
 .carousel-control.left {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#18967b+0,bbbd47+100 */
     background: #18967b;
@@ -198,6 +204,14 @@
     padding: 0px;
     text-align: left;
     left: 23%;
+}
+
+.value-img {
+    text-align: center;
+}
+
+.value-img img {
+    display: inline-block;
 }
 
 .leadership .carousel-caption h2 {
