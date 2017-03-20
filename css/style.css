@@ -25,8 +25,9 @@
 .logo a,
 .logo img {
     display: inline-block;
-    padding: 15px 0;
     font-size: 25px;
+    height: 26px;
+    width: 200px;
 }
 
 .navigation {
@@ -319,6 +320,10 @@
     font-size: 12px;
     margin: 0;
     letter-spacing: 1px;
+}
+
+.contact-form {
+    padding: 100px 0;
 }
 
 #footer .copyright a {
