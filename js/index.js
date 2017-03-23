@@ -27,15 +27,18 @@ $(document).ready(function() {
         }
     );
 
-    $(".navigation li").on('click', 'a', function(event) {
-        event.preventDefault();
-
-        $('html, body').animate({
-            scrollTop: $($.attr(this, 'href')).offset().top - 58
-        }, 500);
-    });
     $('.flexslider').flexslider({
         animation: "slide"
     });
+
+
+
+    // $(".navigation li").on('click', 'a', function(event) {
+    //     event.preventDefault();
+
+    //     $('html, body').animate({
+    //         scrollTop: $($.attr(this, 'href')).offset().top - 58
+    //     }, 500);
+    // });
 
 });

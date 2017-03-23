@@ -15,6 +15,10 @@
     display: none;
 }
 
+.banner-img img {
+    width: 100%;
+}
+
 
 /* logo style */
 
