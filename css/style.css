@@ -5,7 +5,7 @@
 
 #fixed {
     padding: 0 15px;
-    border-bottom: 4px solid #ffc339;
+    border-bottom: 4px solid #EF974C;
 }
 
 
@@ -30,8 +30,9 @@
 .logo img {
     display: inline-block;
     font-size: 25px;
-    height: 26px;
+    height: 100px;
     width: 200px;
+    object-fit: cover;
 }
 
 .navigation {
@@ -51,13 +52,13 @@
 }
 
 .navigation li.active {
-    background: #ffc339;
+    background: #EF974C;
 }
 
 .navigation>li {
     width: 15%;
     position: relative;
-    padding: 15px;
+    padding: 36px 15px;
 }
 
 
@@ -68,10 +69,10 @@
     position: absolute;
     z-index: 1;
     width: 100%;
-    background: #fff;
+    background: #FFFCED;
     left: 0;
     right: 0;
-    top: 54px;
+    top: 94px;
     transition: all 1s linear;
 }
 
@@ -89,13 +90,18 @@
 }
 
 .navigation ul li:hover {
-    /*background: #9a9494;*/
     transition: all 0.5s linear;
+    --webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
 }
 
 .navigation ul li:hover a {
-    color: #ffc339;
+    color: #EF974C;
     transition: all 0.5s linear;
+    --webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
     padding-left: 7px;
 }
 
@@ -109,6 +115,7 @@
 .navigation ul li a {
     font-size: 15px;
     transition: all 0.5s linear;
+    display: block;
     text-shadow: 0px 0px 0px #333333;
 }
 
@@ -299,12 +306,38 @@
     background: #78232f;
 }
 
+.our-services,
+.our-offices {
+    padding: 80px 0;
+}
+
+.our-services h1,
+.our-offices {
+    margin-bottom: 20px;
+}
+
+.our-services ul {
+    padding-left: 35px;
+}
+
+.our-services li {
+    list-style: circle !important;
+    padding-bottom: 15px;
+}
+
+.our-services p,
+.our-offices {
+    margin-bottom: 20px;
+}
+
+.footer-link {
+    background: #FFFCED;
+}
+
 
 /*Footer style start */
 
-#footer {
-    padding-top: 30px;
-}
+#footer {}
 
 #footer a {
     font-size: 15px;
@@ -312,6 +345,7 @@
 
 .footer-link {
     padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 .copyright {
@@ -327,7 +361,18 @@
 }
 
 .contact-form {
-    padding: 100px 0;
+    padding: 80px 0 100px;
+}
+
+.contact-form h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+.contact-form label {
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
 }
 
 #footer .copyright a {

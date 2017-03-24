@@ -24,7 +24,7 @@
         left: 0;
         right: 0;
         z-index: 9;
-        background: #fff;
+        background: #FFFCED;
     }
 }
 
@@ -104,5 +104,8 @@
     #menu {
         right: 10px;
         top: 0px;
+    }
+    .our-services ul {
+        padding-left: 0px;
     }
 }
