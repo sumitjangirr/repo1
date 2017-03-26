@@ -15,7 +15,7 @@
         transition: all 1s linear;
     }
     body {
-        padding-top: 58px;
+        padding-top: 69px;
     }
     #header {
         width: 100%;
@@ -24,7 +24,7 @@
         left: 0;
         right: 0;
         z-index: 9;
-        background: rgba(33, 33, 33, 0.98);
+        background: #FFFCED;
     }
 }
 
@@ -104,5 +104,8 @@
     #menu {
         right: 10px;
         top: 0px;
+    }
+    .our-services ul {
+        padding-left: 0px;
     }
 }

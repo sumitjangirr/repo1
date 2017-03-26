@@ -5,7 +5,7 @@
 
 #fixed {
     padding: 0 15px;
-    border-bottom: 4px solid #78232f;
+    border-bottom: 4px solid #EF974C;
 }
 
 
@@ -15,18 +15,24 @@
     display: none;
 }
 
+.banner-img img {
+    width: 100%;
+}
+
 
 /* logo style */
 
 .logo a {
-    color: #fff;
+    color: #000;
 }
 
 .logo a,
 .logo img {
     display: inline-block;
-    padding: 15px 0;
     font-size: 25px;
+    height: 100px;
+    width: 200px;
+    object-fit: cover;
 }
 
 .navigation {
@@ -46,13 +52,13 @@
 }
 
 .navigation li.active {
-    background: #78232f;
+    background: #EF974C;
 }
 
 .navigation>li {
     width: 15%;
     position: relative;
-    padding: 15px;
+    padding: 36px 15px;
 }
 
 
@@ -63,10 +69,10 @@
     position: absolute;
     z-index: 1;
     width: 100%;
-    background: rgba(33, 33, 33, 0.98);
+    background: #FFFCED;
     left: 0;
     right: 0;
-    top: 54px;
+    top: 94px;
     transition: all 1s linear;
 }
 
@@ -74,7 +80,7 @@
 /*Sub nav Show on hovring link*/
 
 .navigation ul li {
-    border-bottom: 1px solid #383434;
+    border-bottom: 1px solid #dedddd;
     text-align: left;
     cursor: pointer;
 }
@@ -84,13 +90,18 @@
 }
 
 .navigation ul li:hover {
-    background: #9a9494;
     transition: all 0.5s linear;
+    --webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
 }
 
 .navigation ul li:hover a {
-    color: #fff;
+    color: #EF974C;
     transition: all 0.5s linear;
+    --webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
     padding-left: 7px;
 }
 
@@ -98,13 +109,14 @@
     text-transform: capitalize;
     text-decoration: none;
     font-size: 16px;
-    color: #fff;
+    color: #000;
 }
 
 .navigation ul li a {
     font-size: 15px;
     transition: all 0.5s linear;
-    text-shadow: 0px 1px 0px #333333;
+    display: block;
+    text-shadow: 0px 0px 0px #333333;
 }
 
 
@@ -150,6 +162,38 @@
     color: #fff;
 }
 
+.carousel-inner h3 {
+    font-size: 26px;
+    color: #fff;
+    line-height: 1.2;
+}
+
+.carousel-control.left {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#18967b+0,bbbd47+100 */
+    background: #18967b;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #18967b 0%, #bbbd47 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #18967b 0%, #bbbd47 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #18967b 0%, #bbbd47 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#18967b', endColorstr='#bbbd47', GradientType=1);
+    /* IE6-9 */
+    opacity: 0.01;
+}
+
+.carousel-control.right {
+    right: 0;
+    left: auto;
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .0001)), to(rgba(0, 0, 0, .5)));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+    background-repeat: repeat-x
+}
+
 
 /*leaders  section*/
 
@@ -172,6 +216,14 @@
     padding: 0px;
     text-align: left;
     left: 23%;
+}
+
+.value-img {
+    text-align: center;
+}
+
+.value-img img {
+    display: inline-block;
 }
 
 .leadership .carousel-caption h2 {
@@ -254,12 +306,38 @@
     background: #78232f;
 }
 
+.our-services,
+.our-offices {
+    padding: 80px 0;
+}
+
+.our-services h1,
+.our-offices {
+    margin-bottom: 20px;
+}
+
+.our-services ul {
+    padding-left: 35px;
+}
+
+.our-services li {
+    list-style: circle !important;
+    padding-bottom: 15px;
+}
+
+.our-services p,
+.our-offices {
+    margin-bottom: 20px;
+}
+
+.footer-link {
+    background: #FFFCED;
+}
+
 
 /*Footer style start */
 
-#footer {
-    padding-top: 30px;
-}
+#footer {}
 
 #footer a {
     font-size: 15px;
@@ -267,6 +345,7 @@
 
 .footer-link {
     padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 .copyright {
@@ -279,6 +358,21 @@
     font-size: 12px;
     margin: 0;
     letter-spacing: 1px;
+}
+
+.contact-form {
+    padding: 80px 0 100px;
+}
+
+.contact-form h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+.contact-form label {
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
 }
 
 #footer .copyright a {
