@@ -33,12 +33,12 @@ $(document).ready(function() {
 
 
 
-    // $(".navigation li").on('click', 'a', function(event) {
-    //     event.preventDefault();
+    $(".navigation li").on('click', 'a', function(event) {
 
-    //     $('html, body').animate({
-    //         scrollTop: $($.attr(this, 'href')).offset().top - 58
-    //     }, 500);
-    // });
+
+        $('html, body').animate({
+            scrollTop: $($.attr(this, 'href')).offset().top - 104
+        }, 500);
+    });
 
 });

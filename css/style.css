@@ -110,6 +110,7 @@
     text-decoration: none;
     font-size: 16px;
     color: #000;
+    display: block;
 }
 
 .navigation ul li a {
@@ -117,6 +118,10 @@
     transition: all 0.5s linear;
     display: block;
     text-shadow: 0px 0px 0px #333333;
+}
+
+.carousel-inner {
+    max-height: 500px;
 }
 
 
@@ -330,14 +335,14 @@
     margin-bottom: 20px;
 }
 
-.footer-link {
-    background: #FFFCED;
-}
+.footer-link {}
 
 
 /*Footer style start */
 
-#footer {}
+#footer {
+    background: #FFFCED;
+}
 
 #footer a {
     font-size: 15px;
