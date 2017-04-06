@@ -41,4 +41,18 @@ $(document).ready(function() {
         }, 500);
     });
 
+
+    $('#gallery ul li').click(function() {
+        var src = $(this).find('img').attr('src');
+        $('.pop-up').css('display', 'block');
+        $('body').css('overflow', 'hidden');
+        $('.pop-up img').attr('src', src)
+    });
+    $('.pop-up i').click(function() {
+        $('body').css('overflow', 'auto');
+        $('.pop-up').css('display', 'none');
+        $('.pop-up img').attr('src', ' ')
+    });
+
+
 });
