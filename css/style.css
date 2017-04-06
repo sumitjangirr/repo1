@@ -17,6 +17,7 @@
 
 .banner-img img {
     width: 100%;
+    max-height: 500px;
 }
 
 
@@ -59,6 +60,7 @@
     width: 15%;
     position: relative;
     padding: 36px 15px;
+    cursor: pointer;
 }
 
 
@@ -335,8 +337,18 @@
     margin-bottom: 20px;
 }
 
-.gallery {
-    padding: 100px 0;
+.gallery,
+.faq-cont {
+    padding: 50px 0;
+}
+
+.head {
+    padding: 50px 0 0;
+}
+
+.gallery h1,
+.faq-cont {
+    padding: 50px 0 0;
 }
 
 .gallery ul li {
