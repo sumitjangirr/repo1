@@ -1,0 +1,516 @@
+/*style for navigation*/
+
+
+/*header border and space*/
+
+#fixed {
+    padding: 0 15px;
+    border-bottom: 4px solid #EF974C;
+}
+
+
+/* Header fixed */
+
+#menu {
+    display: none;
+}
+
+.banner-img img {
+    width: 100%;
+    max-height: 500px;
+}
+
+
+/* logo style */
+
+.logo a {
+    color: #000;
+}
+
+.logo a,
+.logo img {
+    display: inline-block;
+    font-size: 25px;
+    height: 100px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.navigation {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/*Menu style*/
+
+.navigation li {
+    padding: 8px 15px;
+}
+
+.navigation li.active {
+    background: #EF974C;
+}
+
+.activeMenu {
+    background: #EF974C;
+}
+
+.navigation>li {
+    width: 15%;
+    position: relative;
+    padding: 36px 15px;
+    cursor: pointer;
+}
+
+
+/*Sub nav Hide*/
+
+.navigation ul {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    background: #FFFCED;
+    left: 0;
+    right: 0;
+    top: 94px;
+    transition: all 1s linear;
+}
+
+
+/*Sub nav Show on hovring link*/
+
+.navigation ul li {
+    border-bottom: 1px solid #dedddd;
+    text-align: left;
+    cursor: pointer;
+}
+
+.navigation ul li:last-child {
+    border-bottom: none;
+}
+
+.navigation ul li:hover {
+    transition: all 0.5s linear;
+    --webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+}
+
+.navigation ul li:hover a {
+    color: #EF974C;
+    transition: all 0.5s linear;
+    --webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    padding-left: 7px;
+}
+
+.navigation li a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;
+    display: block;
+}
+
+.navigation ul li a {
+    font-size: 15px;
+    transition: all 0.5s linear;
+    display: block;
+    text-shadow: 0px 0px 0px #333333;
+}
+
+.carousel-inner {
+    max-height: 500px;
+}
+
+
+/*Navigation style End */
+
+
+/*Intro section style start */
+
+.introduction,
+#Vision,
+.leadership {
+    padding: 50px 0;
+}
+
+.introduction img {
+    max-width: 100%;
+}
+
+#Brief h2 {
+    margin-bottom: 30px;
+}
+
+.our-value-sec h3:first-child {
+    margin-top: 0px;
+}
+
+#Vision img {
+    max-width: 600px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.carousel-inner>.item>img {
+    max-height: 740px;
+    object-fit: cover;
+    -webkit-object-fit: cover;
+    -ms-object-fit: cover;
+    -moz-object-fit: cover;
+}
+
+.carousel-caption h2 {
+    color: #fff;
+}
+
+.carousel-inner h3 {
+    font-size: 26px;
+    color: #fff;
+    line-height: 1.2;
+}
+
+.carousel-control.left {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#18967b+0,bbbd47+100 */
+    background: #18967b;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #18967b 0%, #bbbd47 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #18967b 0%, #bbbd47 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #18967b 0%, #bbbd47 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#18967b', endColorstr='#bbbd47', GradientType=1);
+    /* IE6-9 */
+    opacity: 0.01;
+}
+
+.carousel-control.right {
+    right: 0;
+    left: auto;
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .0001)), to(rgba(0, 0, 0, .5)));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+    background-repeat: repeat-x
+}
+
+
+/*leaders  section*/
+
+.leadership>h2 {
+    margin-bottom: 30px;
+}
+
+.leadership .carousel-inner {
+    min-height: 300px;
+}
+
+.leadership .carousel-inner .item img {
+    max-width: 200px;
+    height: 190px;
+    display: inline-block;
+}
+
+.leadership .carousel-caption {
+    top: 0%;
+    padding: 0px;
+    text-align: left;
+    left: 23%;
+}
+
+.value-img {
+    text-align: center;
+}
+
+.value-img img {
+    display: inline-block;
+}
+
+.leadership .carousel-caption h2 {
+    margin-top: 0px;
+}
+
+.leadership .carousel-indicators li {
+    border: 1px solid #FF6600;
+}
+
+.leadership .carousel-indicators .active {
+    background: #FF6600;
+}
+
+.leadership .carousel-caption p {
+    color: #52595B;
+    text-shadow: 0px 0px #52595B;
+}
+
+.carousel-indicators {
+    z-index: 1;
+}
+
+.flex-caption {
+    width: 96%;
+    padding: 2%;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .5);
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.flexslider ul li img {
+    height: 200px;
+    width: 200px;
+}
+
+.flexslider ul li>div {
+    float: left;
+    width: 30%;
+}
+
+.flexslider ul li .caption {
+    float: left;
+    width: 70%;
+}
+
+.flex-direction-nav {
+    display: none;
+}
+
+.flexslider ol {
+    text-align: center;
+}
+
+.flexslider ol li {
+    display: inline-block;
+}
+
+.flexslider ol li a {
+    border: 2px solid #78232f;
+    border-radius: 50%;
+    font-size: 0px;
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.flexslider .flex-caption {
+    display: inline-block;
+    width: initial;
+    padding-right: 19px;
+}
+
+.flexslider ol li a.flex-active {
+    background: #78232f;
+}
+
+.our-services,
+.our-offices {
+    padding: 80px 0;
+}
+
+.our-services h1,
+.our-offices {
+    margin-bottom: 20px;
+}
+
+.our-services ul {
+    padding-left: 35px;
+}
+
+.our-services li {
+    list-style: circle !important;
+    padding-bottom: 15px;
+}
+
+.our-services p,
+.our-offices {
+    margin-bottom: 20px;
+}
+
+.gallery,
+.faq-cont {
+    padding: 50px 0;
+}
+
+.head {
+    padding: 50px 0 0;
+}
+
+.gallery h1,
+.faq-cont {
+    padding: 50px 0 0;
+}
+
+.gallery ul li {
+    float: left;
+    list-style: none;
+    max-width: 25%;
+    padding: 10px;
+    cursor: pointer;
+    height: 260px;
+}
+
+.gallery ul li img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pop-up {
+    padding-top: 100px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.85);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 99;
+    left: 0;
+    display: none;
+    right: 0;
+}
+
+.pop-up span {
+    cursor: pointer;
+    color: #fff;
+}
+
+.pop-up img {
+    display: inline-block;
+    width: 100%;
+    max-width: 1024px;
+}
+
+.pop-up i {
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    z-index: 99;
+    padding-left: 50px;
+    margin-top: -35px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.footer-link {}
+
+
+/*Footer style start */
+
+#footer {
+    background: #FFFCED;
+}
+
+#footer a {
+    font-size: 15px;
+}
+
+.footer-link {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.copyright {
+    background: rgba(33, 33, 33, 0.98);
+    color: #fff;
+}
+
+.copyright p {
+    text-align: center;
+    font-size: 12px;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.contact-form {
+    padding: 80px 0 100px;
+}
+
+.contact-form h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+.contact-form label {
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+}
+
+#footer .copyright a {
+    font-weight: 600;
+    color: #fff;
+    font-size: 12px;
+}
+
+.social-links li {
+    float: left;
+}
+
+.social-links li a {
+    background-image: url(../img/social-image.png);
+    height: 33px;
+    width: 33px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    transition: all 0.2s linear;
+}
+
+.twitter a {
+    background-position: 0px -33px;
+}
+
+.twitter:hover a {
+    background-position: 0px 0px;
+}
+
+.facebook a {
+    background-position: -33px -33px;
+}
+
+.facebook:hover a {
+    background-position: -33px 0px;
+}
+
+.google-plus a {
+    background-position: -66px -33px;
+}
+
+.google-plus:hover a {
+    background-position: -66px 0px;
+}
+
+.linked a {
+    background-position: -99px -33px;
+}
+
+.linked:hover a {
+    background-position: -99px 0px;
+}
+
+.insta a {
+    background-position: -167px -33px;
+}
+
+.insta:hover a {
+    background-position: -167px 0px;
+}
+
+
+/*Footer style End */

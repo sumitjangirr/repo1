@@ -1,0 +1,120 @@
+/* Media for desktop and above */
+
+@media only screen and (max-width: 1200px) {
+    .logo-container {
+        text-align: center;
+    }
+    .logo {
+        display: inline-block;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .navigation>li:hover ul {
+        display: block;
+        transition: all 1s linear;
+    }
+    body {
+<<<<<<< HEAD:src/css/responsive.css
+        padding-top: 81px;
+=======
+        padding-top: 104px;
+>>>>>>> a412c96a41d6b804c82a308de01bf1017f5a7573:css/responsive.css
+    }
+    #header {
+        width: 100%;
+        position: fixed;
+        top: 0px;
+        left: 0;
+        right: 0;
+<<<<<<< HEAD:src/css/responsive.css
+        z-index: 1;
+        background: rgba(60, 118, 61, 0.6);
+=======
+        z-index: 9;
+        background: #FFFCED;
+>>>>>>> a412c96a41d6b804c82a308de01bf1017f5a7573:css/responsive.css
+    }
+}
+
+
+/*Media for tablet devices */
+
+@media only screen and (max-width: 992px) {
+    #menu {
+        display: block;
+        position: absolute;
+        right: 30px;
+        top: 45px;
+        color: red;
+        font-weight: bold;
+        z-index: 9;
+        padding: 10px;
+    }
+    .navigation {
+        text-align: left;
+        display: block;
+        float: right;
+    }
+    .menu-container {
+        background: #252424;
+        z-index: 2;
+        transition: all 0.5s linear;
+        display: none;
+    }
+    .navigation>li {
+        width: 100%;
+    }
+    .menu-container.active {
+        transition: all 0.5s linear;
+    }
+    .navigation ul {
+        position: static;
+        padding-left: 10px;
+        background: transparent;
+    }
+    .navigation ul li {
+        border-bottom: 0px;
+    }
+    #fixed {
+        padding: 0;
+    }
+    .leadership .carousel-caption {
+        position: relative;
+        padding: 30px 15px 0;
+        left: 0;
+    }
+    .leadership .carousel-inner .item {
+        text-align: center;
+    }
+    #menu {
+        top: 20px;
+    }
+}
+
+
+/*Media for mobile devices */
+
+@media only screen and (max-width: 767px) {
+    .carousel-inner>.item>img {
+        line-height: 1;
+        min-height: 300px;
+    }
+    .logo img {
+        height: 50px;
+        width: 130px;
+    }
+    .our-value-sec h3:first-child {
+        margin: 20px 0 0 0;
+    }
+    section>h2 {
+        padding-left: 15px;
+    }
+    #menu {
+        right: 10px;
+        top: 0px;
+    }
+    .our-services ul {
+        padding-left: 0px;
+    }
+}
