@@ -2,13 +2,14 @@
 <html lang="en">
 
 <head>
-    <title>KrishiPhal</title>
+    <title>KrishiPhal: Gallery</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1.0, minimum-scale=1.0, maximum-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/common.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
     <link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
+    <link rel="icon" href="img/favicon.ico" sizes="16x16">
 </head>
 
 <body>
@@ -24,7 +25,7 @@
                 </div>
                 <div class="col-lg-10 col-sm-12 menu-container ">
                     <ul class="navigation">
-                        <li><a href="#"> About us </a>
+                        <li class="parentMenu"><a href="javascript:0"> About us </a>
                             <!-- Sub nav start-->
                             <ul>
                                 <li><a href="#Company"> Company </a></li>
@@ -36,7 +37,7 @@
                             </ul>
                             <!-- Sub nav End-->
                         </li>
-                        <li><a href="#"> What we do  </a>
+                        <li class="parentMenu"><a href="javascript:0"> What we do  </a>
                             <!-- Sub nav start-->
                             <ul>
                                 <li><a href="advisory-services.html"> Advisory Services </a></li>
@@ -46,7 +47,7 @@
                             </ul>
                             <!-- Sub nav End-->
                         </li>
-                        <li><a href="#"> Media Update</a>
+                        <li class="parentMenu"><a href="javascript:0"> Media Update</a>
                             <!-- Sub nav start-->
                             <ul>
                                 <li><a href="news.html"> In news </a></li>
@@ -55,9 +56,9 @@
                             <!-- Sub nav End-->
                         </li>
 
-                        <li><a href="Career.html"> Careers</a></li>
-                        <li><a href="faq.html"> FAQ</a></li>
-                        <li><a href="#"> Contact Us</a>
+                        <li class="parentMenu"><a href="career.html"> Careers</a></li>
+                        <li class="parentMenu"><a href="faq.html"> FAQ</a></li>
+                        <li class="parentMenu"><a href="javascript:0"> Contact Us</a>
                             <ul>
                                 <li><a href="contact.html"> Contact us Form</a></li>
                                 <li><a href="Offices.html">Our Offices</a></li>
@@ -73,23 +74,26 @@
     </header>
     <!--  Header section end here -->
 
-
-
     <div class="container">
-
-
-        <h1> comming soon... </h1>
-
+        <h1> Gallery </h1>
+        <p>find your gallery art </p>
+        <div class="gallery" id="gallery">
+            <ul class="clearfix">
+                <li> <img src="img/a.jpg" /> </li>
+                <li> <img src="img/b.jpg" /> </li>
+                <li> <img src="img/c.jpg" /> </li>
+                <li> <img src="img/a.jpg" /> </li>
+                <li> <img src="img/b.jpg" /> </li>
+                <li> <img src="img/c.jpg" /> </li>
+            </ul>
+            <div class="pop-up">
+                <span id="next">Next </span>
+                <img src="" />
+                <i>X</i>
+                <span id="prev">Prev </span>
+            </div>
+        </div>
     </div>
-
-
-
-
-
-
-
-
-
     <!--  Footer section start here -->
     <footer id="footer" class=" bor_tp">
         <div class="container footer-link ">
@@ -135,7 +139,7 @@
                 <section class="col-md-3 col-sm-6 col-xs-12">
                     <h4> Contact us </h4>
                     <ul>
-                        <li><a href="Career.html"> Careers</a></li>
+                        <li><a href="career.html"> Careers</a></li>
                         <li><a href="contact.html"> Contact us Form</a></li>
                         <li><a href="Offices.html">Our Offices</a></li>
                     </ul>

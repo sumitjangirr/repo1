@@ -17,6 +17,7 @@
 
 .banner-img img {
     width: 100%;
+    max-height: 500px;
 }
 
 
@@ -55,10 +56,15 @@
     background: #EF974C;
 }
 
+.activeMenu {
+    background: #EF974C;
+}
+
 .navigation>li {
     width: 15%;
     position: relative;
     padding: 36px 15px;
+    cursor: pointer;
 }
 
 
@@ -110,6 +116,7 @@
     text-decoration: none;
     font-size: 16px;
     color: #000;
+    display: block;
 }
 
 .navigation ul li a {
@@ -117,6 +124,10 @@
     transition: all 0.5s linear;
     display: block;
     text-shadow: 0px 0px 0px #333333;
+}
+
+.carousel-inner {
+    max-height: 500px;
 }
 
 
@@ -330,14 +341,81 @@
     margin-bottom: 20px;
 }
 
-.footer-link {
-    background: #FFFCED;
+.gallery,
+.faq-cont {
+    padding: 50px 0;
 }
+
+.head {
+    padding: 50px 0 0;
+}
+
+.gallery h1,
+.faq-cont {
+    padding: 50px 0 0;
+}
+
+.gallery ul li {
+    float: left;
+    list-style: none;
+    max-width: 25%;
+    padding: 10px;
+    cursor: pointer;
+    height: 260px;
+}
+
+.gallery ul li img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pop-up {
+    padding-top: 100px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.85);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 99;
+    left: 0;
+    display: none;
+    right: 0;
+}
+
+.pop-up span {
+    cursor: pointer;
+    color: #fff;
+}
+
+.pop-up img {
+    display: inline-block;
+    width: 100%;
+    max-width: 1024px;
+}
+
+.pop-up i {
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    z-index: 99;
+    padding-left: 50px;
+    margin-top: -35px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.footer-link {}
 
 
 /*Footer style start */
 
-#footer {}
+#footer {
+    background: #FFFCED;
+}
 
 #footer a {
     font-size: 15px;
