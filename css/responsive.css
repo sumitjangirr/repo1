@@ -15,11 +15,7 @@
         transition: all 1s linear;
     }
     body {
-<<<<<<< HEAD:src/css/responsive.css
-        padding-top: 81px;
-=======
         padding-top: 104px;
->>>>>>> a412c96a41d6b804c82a308de01bf1017f5a7573:css/responsive.css
     }
     #header {
         width: 100%;
@@ -27,13 +23,8 @@
         top: 0px;
         left: 0;
         right: 0;
-<<<<<<< HEAD:src/css/responsive.css
-        z-index: 1;
-        background: rgba(60, 118, 61, 0.6);
-=======
         z-index: 9;
         background: #FFFCED;
->>>>>>> a412c96a41d6b804c82a308de01bf1017f5a7573:css/responsive.css
     }
 }
 
