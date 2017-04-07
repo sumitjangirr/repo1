@@ -55,6 +55,10 @@
     background: #EF974C;
 }
 
+.activeMenu {
+    background: #EF974C;
+}
+
 .navigation>li {
     width: 15%;
     position: relative;
