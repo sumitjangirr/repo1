@@ -42,6 +42,11 @@ $(document).ready(function() {
         event.preventDefault();
         event.stopPropagation();
 
+        if ($(this).attr("href") == "javascript:0") {
+            return;
+        }
+
+
         if ($($.attr(this, 'href')).length > 0) {
             $('html, body').animate({
                 scrollTop: $($.attr(this, 'href')).offset().top - 104
