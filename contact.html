@@ -28,34 +28,30 @@
 
         <div class="contact-form">
             <h1>Please fill contact details:</h1>
-            <form>
+            <form action="mailto:krishiphal@helpdesk.com?subject=Land inquiry" method="post" enctype="text/plain">
                 <div class="form-group">
-                    <label for="exampleInputFirst">First Name*</label>
-                    <input type="text" class="form-control" id="exampleInputFirst" placeholder="First Name">
+                    <label for="firstName">First Name*</label>
+                    <input type="text" class="form-control" id="firstName" name="First Name" placeholder="First Name">
                 </div>
                 <div class="form-group">
-                    <label for="exampleInputLast"> Last Name </label>
-                    <input type="text" class="form-control" id="exampleInputLast" placeholder="Last Name">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" class="form-control" id="lastName" name="Last Name" placeholder="Last Name">
                 </div>
                 <div class="form-group">
-                    <label for="exampleInputPhone">Phone</label>
-                    <input type="number" class="form-control" id="exampleInputPhone" placeholder="Phone">
+                    <label for="phoneNumber">Phone</label>
+                    <input type="number" class="form-control" id="phoneNumber" name="Phone" placeholder="Phone">
                 </div>
                 <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email address">
+                    <label for="emailId">Email address</label>
+                    <input type="email" class="form-control" id="emailId" name="Email address" placeholder="Email address">
                 </div>
                 <div class="form-group">
-                    <label for="exampleInputPassword1">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    <label for="landSize">Land Size</label>
+                    <textarea class="form-control" rows="3" id="landSize" name="Land Size" placeholder="Land Size"></textarea>
                 </div>
                 <div class="form-group">
-                    <label for="exampleInputPassword1">Land Size</label>
-                    <textarea class="form-control" rows="3" placeholder="Land Size"></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="exampleInputPassword1">Land Location</label>
-                    <textarea class="form-control" rows="3" placeholder="Land Location"></textarea>
+                    <label for="landLocation">Land Location</label>
+                    <textarea class="form-control" rows="3" id="landLocation" name="Land Location" placeholder="Land Location"></textarea>
                 </div>
                 <button type="submit" class="btn btn-default">Submit</button>
             </form>

@@ -77,5 +77,4 @@ $(document).ready(function() {
         $('.pop-up img').attr('src', ' ')
     });
 
-
 });
