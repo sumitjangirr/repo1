@@ -63,8 +63,12 @@
 .navigation>li {
     width: 15%;
     position: relative;
-    padding: 36px 15px;
+    padding: 0;
     cursor: pointer;
+}
+
+.navigation>li>a {
+    padding: 36px 15px
 }
 
 
@@ -126,10 +130,6 @@
     text-shadow: 0px 0px 0px #333333;
 }
 
-.carousel-inner {
-    max-height: 500px;
-}
-
 
 /*Navigation style End */
 
@@ -162,7 +162,7 @@
 }
 
 .carousel-inner>.item>img {
-    max-height: 740px;
+    max-height: 500px;
     object-fit: cover;
     -webkit-object-fit: cover;
     -ms-object-fit: cover;
@@ -355,16 +355,18 @@
     padding: 50px 0 0;
 }
 
-.gallery ul li {
+.gallery a {
     float: left;
     list-style: none;
     max-width: 25%;
     padding: 10px;
     cursor: pointer;
     height: 260px;
+    display: block;
+    margin-bottom: 30px;
 }
 
-.gallery ul li img {
+.gallery img {
     display: block;
     width: 100%;
     height: 100%;

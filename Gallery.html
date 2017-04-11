@@ -10,6 +10,11 @@
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
     <link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
     <link rel="icon" href="img/favicon.ico" sizes="16x16">
+    <link href="css/lightbox.css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-3.1.1.js">
+    </script>
+    <script type="text/javascript" src="js/lightbox.js">
+    </script>
 </head>
 
 <body>
@@ -77,21 +82,44 @@
     <div class="container">
         <h1> Gallery </h1>
         <p>find your gallery art </p>
-        <div class="gallery" id="gallery">
-            <ul class="clearfix">
-                <li> <img src="img/a.jpg" /> </li>
-                <li> <img src="img/b.jpg" /> </li>
-                <li> <img src="img/c.jpg" /> </li>
-                <li> <img src="img/a.jpg" /> </li>
-                <li> <img src="img/b.jpg" /> </li>
-                <li> <img src="img/c.jpg" /> </li>
-            </ul>
-            <div class="pop-up">
-                <span id="next">Next </span>
-                <img src="" />
-                <i>X</i>
-                <span id="prev">Prev </span>
-            </div>
+        <div class="gallery clearfix" id="gallery">
+
+            <a href="img/a.jpg" data-lightbox="roadtrip" data-title="My caption"><img src="img/a.jpg" />
+                <p> Image #2 </p>
+            </a>
+            <a href="img/b.jpg" data-lightbox="roadtrip" data-title="My caption"><img src="img/b.jpg" />
+                <p> Image #3 </p>
+            </a>
+            <a href="img/c.jpg" data-lightbox="roadtrip" data-title="My caption"><img src="img/c.jpg" />
+                <p> Image #4 </p>
+            </a>
+            <a href="img/a.jpg" data-lightbox="roadtrip" data-title="My caption"><img src="img/a.jpg" />
+                <p> Image #2 </p>
+            </a>
+            <a href="img/b.jpg" data-lightbox="roadtrip" data-title="My caption"><img src="img/b.jpg" />
+                <p> Image #3 </p>
+            </a>
+            <a href="img/c.jpg" data-lightbox="roadtrip" data-title="My caption"><img src="img/c.jpg" />
+                <p> Image #4 </p>
+            </a>
+            <a href="img/a.jpg" data-lightbox="roadtrip" data-title="My caption"><img src="img/a.jpg" />
+                <p> Image #2 </p>
+            </a>
+            <a href="img/b.jpg" data-lightbox="roadtrip" data-title="My caption"><img src="img/b.jpg" />
+                <p> Image #3 </p>
+            </a>
+            <a href="img/c.jpg" data-lightbox="roadtrip" data-title="My caption"><img src="img/c.jpg" />
+                <p> Image #4 </p>
+            </a>
+            <a href="img/a.jpg" data-lightbox="roadtrip" data-title="My caption"><img src="img/a.jpg" />
+                <p> Image #2 </p>
+            </a>
+            <a href="img/b.jpg" data-lightbox="roadtrip" data-title="My caption"><img src="img/b.jpg" />
+                <p> Image #3 </p>
+            </a>
+            <a href="img/c.jpg" data-lightbox="roadtrip" data-title="My caption"><img src="img/c.jpg" />
+                <p> Image #4 </p>
+            </a>
         </div>
     </div>
     <!--  Footer section start here -->
@@ -170,14 +198,15 @@
     </footer>
     <!--  Footer section end here -->
     <!---js Script liberary and file  -->
-    <script type="text/javascript" src="js/jquery-3.1.1.js">
-    </script>
+
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/main.js">
     </script>
     <script type="text/javascript" src="js/index.js">
     </script>
     <script type="text/javascript" src="js/jquery.flexslider.js">
+    </script>
+    <script type="text/javascript" src="js/imagelightbox.js">
     </script>
 </body>
 
