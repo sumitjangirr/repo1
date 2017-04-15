@@ -1,80 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
+<!--  Header section end here -->
 
-<head>
-    <title>KrishiPhal: Contact</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1.0, minimum-scale=1.0, maximum-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/common.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/responsive.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
-</head>
+<div class="banner-img">
 
-<body>
-    <!--  Header section start here -->
-    <header id="header" class="container-fluid">
-    </header>
-    <!--  Header section end here -->
+    <img src="img/banner-2.jpg" alt="banner image" />
 
-    <div class="banner-img">
+</div>
 
-        <img src="img/banner-2.jpg" alt="banner image" />
+<div class="container">
 
+
+    <div class="contact-form">
+        <h1>Please fill contact details:</h1>
+        <form action="mailto:krishiphal@helpdesk.com?subject=Land inquiry" method="post" enctype="text/plain">
+            <div class="form-group">
+                <label for="firstName">First Name*</label>
+                <input type="text" class="form-control" id="firstName" name="First Name" placeholder="First Name">
+            </div>
+            <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" class="form-control" id="lastName" name="Last Name" placeholder="Last Name">
+            </div>
+            <div class="form-group">
+                <label for="phoneNumber">Phone</label>
+                <input type="number" class="form-control" id="phoneNumber" name="Phone" placeholder="Phone">
+            </div>
+            <div class="form-group">
+                <label for="emailId">Email address</label>
+                <input type="email" class="form-control" id="emailId" name="Email address" placeholder="Email address">
+            </div>
+            <div class="form-group">
+                <label for="landSize">Land Size</label>
+                <textarea class="form-control" rows="3" id="landSize" name="Land Size" placeholder="Land Size"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="landLocation">Land Location</label>
+                <textarea class="form-control" rows="3" id="landLocation" name="Land Location" placeholder="Land Location"></textarea>
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+        </form>
     </div>
 
-    <div class="container">
-
-
-        <div class="contact-form">
-            <h1>Please fill contact details:</h1>
-            <form action="mailto:krishiphal@helpdesk.com?subject=Land inquiry" method="post" enctype="text/plain">
-                <div class="form-group">
-                    <label for="firstName">First Name*</label>
-                    <input type="text" class="form-control" id="firstName" name="First Name" placeholder="First Name">
-                </div>
-                <div class="form-group">
-                    <label for="lastName">Last Name</label>
-                    <input type="text" class="form-control" id="lastName" name="Last Name" placeholder="Last Name">
-                </div>
-                <div class="form-group">
-                    <label for="phoneNumber">Phone</label>
-                    <input type="number" class="form-control" id="phoneNumber" name="Phone" placeholder="Phone">
-                </div>
-                <div class="form-group">
-                    <label for="emailId">Email address</label>
-                    <input type="email" class="form-control" id="emailId" name="Email address" placeholder="Email address">
-                </div>
-                <div class="form-group">
-                    <label for="landSize">Land Size</label>
-                    <textarea class="form-control" rows="3" id="landSize" name="Land Size" placeholder="Land Size"></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="landLocation">Land Location</label>
-                    <textarea class="form-control" rows="3" id="landLocation" name="Land Location" placeholder="Land Location"></textarea>
-                </div>
-                <button type="submit" class="btn btn-default">Submit</button>
-            </form>
-        </div>
-
-    </div>
-
-
-
-    <!--  Footer section start here -->
-    <footer id="footer" class=" bor_tp">
-    </footer>
-    <!--  Footer section end here -->
-    <!---js Script liberary and file  -->
-    <script type="text/javascript" src="js/jquery-3.1.1.js">
-    </script>
-    <script src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/main.js">
-    </script>
-    <script type="text/javascript" src="js/index.js">
-    </script>
-    <script type="text/javascript" src="js/jquery.flexslider.js">
-    </script>
-</body>
-
-</html>
+</div>
